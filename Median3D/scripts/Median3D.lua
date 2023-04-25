@@ -14,7 +14,8 @@ local DELAY = 2000
 
 -- Start of Function and Event Scope--------------------------------------------
 
---@filteringImage(heightMap:Image, intensityMap:Image)
+---@param heightMap Image
+---@param intensityMap Image
 local function filteringImage(heightMap, intensityMap)
   -- MEDIAN: Applies median filter to the image to smooth and remove noise
 
